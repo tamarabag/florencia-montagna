@@ -70,6 +70,11 @@ h1, h2 {
   font: 400 1rem "Nunito", sans-serif;
   color: #2d2640;
 }
+
+h1, h2{
+  font-size: 3rem !important;
+}
+
 h1.banner{
   font-variant: small-caps;
   letter-spacing: 0.3rem;
@@ -93,6 +98,11 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+}
+
+h6 {
+  font: 400 1rem "Nunito", sans-serif;
+  font-size: 1.7rem;
 }
 
 p {
@@ -121,6 +131,9 @@ a {
   }
 }
 
+a, a:link, a:hover {
+  text-decoration: none;
+}
 
 /* HEADER NAV */
 
@@ -150,8 +163,12 @@ header nav ul li a:hover {
   color: #2b272f;
 }
 
-.header {
+.intro {
   background-color: #2D2640;
+}
+
+.intro p{
+  line-height: 2;
 }
 
 a.contact {
@@ -167,8 +184,19 @@ a.contact:hover {
   cursor: pointer;
 }
 
-img.intro {
-width: inherit;
+img.intro-img {
+  display: block;
+  position: relative;
+  width: inherit;
+  top: 5rem;
+}
+
+.section-title {
+  padding: 2rem 0;
+}
+
+.servicios {
+ margin-top: 8rem;
 }
 
 .card {
@@ -178,19 +206,29 @@ width: inherit;
 
 .card img{
   max-height: 87px;
-  
+}
+.card-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
 }
 
 
 
 .detail{
   background-color:#2D2640 ;
+  margin: 7rem auto;
 }
 .detail span {
   display:block;
 }
 
 
+.about p {
+  
+    line-height: 1.8;
+  
+}
 
 footer {
   background-color: #fafafa;

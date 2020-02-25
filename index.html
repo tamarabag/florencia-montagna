@@ -30,12 +30,12 @@
     <nav class="navbar">
       <div class="bar">
         <!-- HACERLO H1.A.LINK -->
-        <a href="#"><img class="logo" src="./images/logo-fm.svg" alt="Logo"></a>
+        <h6 class="pl-5"><a href="#">FLORENCIA MONTAGNA</a></h6>
         <img class="hamburger visible-min" src="./images/icon-hamburger.svg" alt="Hamburger Icon"
           onclick="toggle(this)">
       </div>
       <ul class="menu">
-        <li><a href="#">HOLITAS</a></li>
+        <li><a href="#">PROYECTOS</a></li>
         <li><a href="#servicios">SERVICIOS</a></li>
         <li><a href="#sobre-mi">SOBRE MÍ</a></li>
         <li><a href="mailto:info@ingenieriafm.com">CONTACTAME</a></li>
@@ -44,36 +44,36 @@
   </header>
 
   <section class="intro">
-    <div class="container-fluid header">
+    <div class="container-fluid intro">
 
-      <div class="row">
+      <div class="row py-5 px-5">
 
-        <div class="col-6">
-          <h1 class="banner text-white">Ingeniería<br />de Proyectos</h1>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque
+        <div class="col-12 col-md-6">
+          <h1 class="banner text-white mb-3">Ingeniería<br />de Proyectos</h1>
+          <p class="text-white py-4 pr-5 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste
+            minima.
+            Atque
             dolor, hic reprehenderit commodi rem incidunt iure porro totam ex natus! Ipsam, odit ipsa saepe ex illum
             laboriosam!
           </p>
-          <a class="contact" href="#">CONTACTAME</a>
+          <a class="contact mt-3" href="#">CONTACTAME</a>
         </div>
 
-        <div class="col-6">
-          <img class="intro" src="./images/prueba-mobile.svg" alt="Image Intro">
+        <div class="col-12 col-md-6">
+          <img class="intro-img d-none d-sm-block
+          " src="./images/prueba-mobile.svg" alt="Image Intro">
         </div>
 
       </div>
 
     </div>
   </section>
-  <!-- <img class="outer" src="./images/prueba-mobile.svg" alt="Image Intro"> -->
 
 
-
-
-  <section class="container" id="servicios">
+  <section class="container servicios" id="servicios">
     <div class="row">
       <div class="col">
-        <h2>Servicios</h2>
+        <h2 class="section-title">Servicios</h2>
       </div>
     </div>
 
@@ -156,18 +156,17 @@
 
     </div>
 
-
   </section>
 
 
-  <section class="container" id="sobre-mi">
-    <h2>Sobre Mí</h2>
+  <section class="container about w-75" id="sobre-mi">
+    <h2 class="section-title">Sobre Mí</h2>
     <div class="card-bio">
       <div class="row align-middle">
-        <div class="col-6 text-center">
-          <img class="rounded-circle w-25" src="./images/foto-fm.png" class="img-fluid" alt="">
+        <div class="col-4 text-center">
+          <img class="rounded-circle w-75" src="./images/foto-fm.png" class="img-fluid" alt="">
         </div>
-        <div class="col-6 align-middle">
+        <div class="col-8 align-middle">
           <div class="card-block">
             <h2 class="card-title">Ingeniera Florencia Montagna</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique inventore dolores
@@ -184,15 +183,15 @@
   </section>
 
 
-  <section class="container detail w-75" id="contacto">
+  <section class="container detail w-75 p-5 align-middle" id="contacto">
     <div class="row">
-      <div class="col-6">
+      <div class="col-9 my-3">
         <h2 class="text-white"> <span> ¿Estás interesado</span><span>en que trabajemos juntos?</span></h2>
       </div>
-      <div class="col-6">
-        <a class="contact text-white" href="mailto:info@ingenieriafm.com">
-          CONTACTAME
-        </a>
+      <div class="col-3 my-3 mx-auto align-middle">
+        <span><a class="contact" href="mailto:info@ingenieriafm.com">
+            CONTACTAME
+          </a></span>
       </div>
     </div>
   </section>
@@ -200,8 +199,9 @@
   <footer class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <img src="./images/logo-fm.svg" alt="Logo">
+        <div class="col-6 float-left">
+          <!-- <img src="./images/logo-fm.svg" alt="Logo"> -->
+          <h6 class="logo pl-3">FLORENCIA MONTAGNA</h6>
         </div>
         <div class="col-6">
           <div class="row float-right">
