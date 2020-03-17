@@ -182,7 +182,7 @@ header nav ul li a:hover {
    * Centers everything, remove for
    * practical purposes.
   */
-  -webkit-transform(-50%, -50%);
+  -webkit-transform:(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
