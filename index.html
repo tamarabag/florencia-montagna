@@ -10,10 +10,13 @@
   <title>Ing. Florencia Montagna</title>
 
   <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700&display=swap|Nunito&display=swap"
@@ -26,102 +29,144 @@
   <header>
     <nav class="navbar">
       <div class="bar">
-        <a href="#"><img class="logo" src="./images/logo-fm.svg" alt="Logo"></a>
+        <!-- HACERLO H1.A.LINK -->
+        <h6 class="pl-5"><a href="#">FLORENCIA MONTAGNA</a></h6>
         <img class="hamburger visible-min" src="./images/icon-hamburger.svg" alt="Hamburger Icon"
           onclick="toggle(this)">
       </div>
       <ul class="menu">
-        <li><a href="#">HOLITAS</a></li>
+        <li><a href="#">PROYECTOS</a></li>
         <li><a href="#servicios">SERVICIOS</a></li>
         <li><a href="#sobre-mi">SOBRE MÍ</a></li>
         <li><a href="mailto:info@ingenieriafm.com">CONTACTAME</a></li>
       </ul>
     </nav>
-
-
-    <section>
-      <div>
-        <img class="inner" src="./images/prueba-mobile.svg" alt="Image Intro">
-        <h1 class="banner">Ingeniería<br />de Proyectos</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque dolor, hic
-          reprehenderit commodi rem incidunt iure porro totam ex natus! Ipsam, odit ipsa saepe ex illum laboriosam!</p>
-        <a href="#">CONTACTAME</a>
-      </div>
-    </section>
-    <img class="outer" src="./images/prueba-mobile.svg" alt="Image Intro">
   </header>
 
+  <section class="intro">
+    <div class="container-fluid intro">
 
+      <div class="row py-5 px-5">
 
-
-  <section class="content" id="servicios">
-    <h1>Servicios</h1>
-
-    <div class="row">
-      <div class="col">
-        <div class="card">
-          <img src="./images/icon-gestion.svg" alt="Gestion de Proyectos">
-          <h2>Desarrollo y Gestión de Proyectos</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque dolor, hic
-            reprehenderit commodi..</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./images/icon-industria.svg" alt="Montaje de Obra">
-          <h2>Montaje de Obra</h2>
-          <p>Supervisión de obra, montaje y puesta en marcha de equipos e instalaciones.</p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <img src="./images/icon-puesta-en-marcha.svg" alt="Puesta en Marcha">
-          <h2>Puesta en Marcha</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque dolor, hic
-            reprehenderit commodi...</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="card">
-          <img src="./images/icon-documentacion.svg" alt="Documentacion">
-          <h2>Documentación</h2>
-          <p> Realización de Pliegos, P&ID, especificaciones técnicas y documentaciones para registro.
-            Desarrollo de planes de validación de líneas y equipos, con documentación.
-            Análisis de documentación técnica.
+        <div class="col-12 col-md-6">
+          <h1 class="banner text-white mb-3">Ingeniería<br />de Proyectos</h1>
+          <p class="text-white py-4 pr-5 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste
+            minima.
+            Atque
+            dolor, hic reprehenderit commodi rem incidunt iure porro totam ex natus! Ipsam, odit ipsa saepe ex illum
+            laboriosam!
           </p>
+          <a class="contact mt-3" href="#">CONTACTAME</a>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./images/icon-proveedores.svg" alt="Gestión de Proveedores">
 
-          <h2>Gestión de proveedores</h2>
-          <p>Supervisión de obra, montaje y puesta en marcha de equipos e instalaciones.</p>
+        <div class="col-12 col-md-6">
+          <img class="intro-img d-none d-sm-block
+          " src="./images/prueba-mobile.svg" alt="Image Intro">
         </div>
+
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="./images/icon-industria-alimenticia.svg" alt="Industria Alimenticia">
-          <h2>Especializada en Industria Alimenticia</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque dolor, hic
-            reprehenderit commodi...</p>
-        </div>
-      </div>
+
     </div>
   </section>
 
-  <section class="content" id="sobre-mi">
-    <h1>Sobre Mí</h1>
-    <div class="card-bio">
-      <div class="row no-gutters">
-        <div class="col-auto">
-          <img src="./images/foto-fm.png" class="img-fluid" alt="">
+
+  <section class="container servicios" id="servicios">
+    <div class="row">
+      <div class="col">
+        <h2 class="section-title">Servicios</h2>
+      </div>
+    </div>
+
+    <div class="row text-center mx-auto">
+      <div class="col-12 col-md-4 text-center mx-auto">
+        <div class="card border-0 mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="./images/icon-gestion.svg" alt="Gestion de Proyectos">
+          <div class="card-body">
+            <h5 class="card-title">Desarrollo y Gestión de Proyectos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque
+              dolor, hic
+              reprehenderit commodi..</p>
+          </div>
         </div>
-        <div class="col">
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card border-0 mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="./images/icon-industria.svg" alt="Montaje de Obra">
+          <div class="card-body">
+            <h5 class="card-title">Montaje de Obra</h5>
+            <p class="card-text">Supervisión de obra, montaje y puesta en marcha de equipos e instalaciones.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card border-0 mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="./images/icon-puesta-en-marcha.svg" alt="Puesta en Marcha">
+          <div class="card-body">
+            <h5 class="card-title">Puesta en Marcha</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque
+              dolor, hic
+              reprehenderit commodi...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12 col-md-4">
+        <div class="card border-0 mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="./images/icon-documentacion.svg" alt="Documentacion">
+
+          <div class="card-body">
+            <h5 class="card-title">Documentación</h5>
+            <p class="card-text">Realización de Pliegos, P&ID, especificaciones técnicas y documentaciones para
+              registro.
+              Desarrollo de planes de validación de líneas y equipos, con documentación.
+              Análisis de documentación técnica.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card border-0 mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="./images/icon-proveedores.svg" alt="Gestión de Proveedores">
+          <div class="card-body">
+            <h5 class="card-title">Gestión de proveedores</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+              Atque dolor, hic
+              reprehenderit commodi...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card border-0 mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="./images/icon-industria-alimenticia.svg" alt="Industria Alimenticia">
+          <div class="card-body">
+            <h5 class="card-title">Especializada en Industria Alimenticia</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+              Atque
+              dolor, hic
+              reprehenderit commodi...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="container about w-75" id="sobre-mi">
+    <h2 class="section-title">Sobre Mí</h2>
+    <div class="card-bio">
+      <div class="row align-middle">
+        <div class="col-4 text-center">
+          <img class="rounded-circle w-75" src="./images/foto-fm.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-8 align-middle">
           <div class="card-block">
             <h2 class="card-title">Ingeniera Florencia Montagna</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique inventore dolores
@@ -132,89 +177,61 @@
         </div>
       </div>
     </div>
+
+    </div>
+
   </section>
 
 
-  <section class="detail" id="contacto">
-    <div>
-      <h1>¿Estás interesado<br />en que trabajemos juntos?</h1>
-      <a href="mailto:info@ingenieriafm.com">CONTACTAME</a>
+  <section class="container detail w-75 p-5 align-middle" id="contacto">
+    <div class="row">
+      <div class="col-9 my-3">
+        <h2 class="text-white"> <span> ¿Estás interesado</span><span>en que trabajemos juntos?</span></h2>
+      </div>
+      <div class="col-3 my-3 mx-auto align-middle">
+        <span><a class="contact" href="mailto:info@ingenieriafm.com">
+            CONTACTAME
+          </a></span>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <div class="footer-logo">
+  <footer class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 float-left">
+          <!-- <img src="./images/logo-fm.svg" alt="Logo"> -->
+          <h6 class="logo pl-3">FLORENCIA MONTAGNA</h6>
+        </div>
+        <div class="col-6">
+          <div class="row float-right">
+            <div class="col-auto">
+              <a href="mailto:contacto@ingenieriafm.com">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                contacto@ingenieriafm.com</a>
+            </div>
+            <div class="col-auto">
+              <a href="tel:+549110000000">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +54 911 000 0000</a>
+            </div>
+            <div class="col-auto float-left">
+              <a href="https://www.linkedin.com/in/florenciamontagna/" id="linkedin" target="_blank">
+                <i class="fa fa-linkedin icon-4x"></i>
+            </div>
+          </div>
 
-      <img src="./images/logo-fm.svg" alt="Logo">
+        </div>
+      </div>
 
-      <ul class="social">
-        <li>
-          <a href="mailto:contacto@ingenieriafm.com">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            contacto@ingenieriafm.com</a></li>
-        <li> <a href="tel:+549110000000">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            +54 911 000 0000</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/florenciamontagna/" id="linkedin" target="_blank">
-            <i class="fa fa-linkedin icon-4x"></i>
-          </a>
-        </li>
-      </ul>
     </div>
+
 
     <hr>
 
   </footer>
 
-  <script>
-
-
-    function toggle(img) {
-      var menu = document.getElementsByClassName("menu")[0];
-      var nav = document.getElementsByTagName("nav")[0];
-      var hamburger = document.getElementsByClassName("hamburger")[0];
-      var path = window.location.protocol + "//" + window.location.host + pathName() + "/images/"
-      if (menu.style.display == "") {
-        menu.style.display = "none";
-        nav.style.height = "";
-        hamburger.src = path + "icon-hamburger.svg";
-      } else {
-        menu.style.display = "";
-        nav.style.height = "100vh";
-        hamburger.src = path + "icon-close.svg";
-      }
-    }
-
-    function toggleMenu(screen) {
-      var menu = document.getElementsByClassName("menu")[0];
-      var nav = document.getElementsByTagName("nav")[0];
-      var hamburger = document.getElementsByClassName("hamburger")[0];
-      var path = window.location.protocol + "//" + window.location.host + pathName() + "/images/"
-      if (screen.matches) {
-        menu.style.display = "none";
-        nav.style.height = "0vh";
-        hamburger.src = path + "icon-hamburger.svg";
-      } else {
-        menu.style.display = "";
-        nav.style.height = "";
-        hamburger.src = path + "icon-hamburger.svg";
-      }
-    }
-
-    function pathName() {
-      var path = window.location.pathname.split("/");
-      if (path[path.length - 1].match("index") != null) {
-        path.pop();
-      }
-      return path.join([separador = "/"]);
-    }
-
-    var screen = window.matchMedia("(max-width: 768px)");
-    toggleMenu(screen);
-    screen.addListener(toggleMenu);
-  </script>
+  <script src="script.js"></script>
 
 </body>
 
