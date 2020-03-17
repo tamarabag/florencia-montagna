@@ -43,3 +43,12 @@ function pathName() {
 var screen = window.matchMedia("(max-width: 768px)");
 toggleMenu(screen);
 screen.addListener(toggleMenu);
+
+
+(function () {
+    var toggle = document.querySelector('.nav-toggle');
+
+    toggle.addEventListener('click', function (e) {
+        this.classList.toggle('opened');
+    });
+})();

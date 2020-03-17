@@ -26,22 +26,44 @@
 </head>
 
 <body>
+
   <header>
     <nav class="navbar">
       <div class="bar">
-        <!-- HACERLO H1.A.LINK -->
         <h6 class="pl-5"><a href="#">FLORENCIA MONTAGNA</a></h6>
-        <img class="hamburger visible-min" src="./images/icon-hamburger.svg" alt="Hamburger Icon"
-          onclick="toggle(this)">
+        <!-- <img class="hamburger visible-min" src="./images/icon-hamburger.svg" alt="Hamburger Icon"
+          onclick="toggle(this)"> -->
+        <button class="nav-toggle hamburger visible-min">
+          <span class="bar-top"></span>
+          <span class="bar-mid"></span>
+          <span class="bar-bot"></span>
+        </button>
+
       </div>
       <ul class="menu">
-        <li><a href="#">PROYECTOS</a></li>
+        <!-- <li><a href="#">PROYECTOS</a></li> -->
         <li><a href="#servicios">SERVICIOS</a></li>
         <li><a href="#sobre-mi">SOBRE MÍ</a></li>
-        <li><a href="mailto:info@ingenieriafm.com">CONTACTAME</a></li>
+        <li><a href="mailto:f.montagna@fmingenieria.com">CONTACTAME</a></li>
       </ul>
     </nav>
   </header>
+
+  <!-- 
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div> -->
 
   <section class="intro">
     <div class="container-fluid intro">
@@ -185,43 +207,40 @@
 
   <section class="container detail w-75 p-5 align-middle" id="contacto">
     <div class="row">
-      <div class="col-9 my-3">
+      <div class="col-12 col-md-9 my-3">
         <h2 class="text-white"> <span> ¿Estás interesado</span><span>en que trabajemos juntos?</span></h2>
       </div>
-      <div class="col-3 my-3 mx-auto align-middle">
-        <span><a class="contact" href="mailto:info@ingenieriafm.com">
+      <div class="col-12 col-md-3 my-3 mx-auto align-middle">
+        <span class="text-center align-middle"><a class="contact" href="mailto:f.montagna@fmingenieria.com">
             CONTACTAME
           </a></span>
       </div>
     </div>
   </section>
 
+
   <footer class="container-fluid">
     <div class="container">
-      <div class="row">
-        <div class="col-6 float-left">
-          <!-- <img src="./images/logo-fm.svg" alt="Logo"> -->
+      <div class="row text-center">
+        <div class="col-12 col-lg-7  text-center text-lg-left float-left">
           <h6 class="logo pl-3">FLORENCIA MONTAGNA</h6>
         </div>
-        <div class="col-6">
-          <div class="row float-right">
-            <div class="col-auto">
-              <a href="mailto:contacto@ingenieriafm.com">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                contacto@ingenieriafm.com</a>
-            </div>
-            <div class="col-auto">
-              <a href="tel:+549110000000">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                +54 911 000 0000</a>
-            </div>
-            <div class="col-auto float-left">
-              <a href="https://www.linkedin.com/in/florenciamontagna/" id="linkedin" target="_blank">
-                <i class="fa fa-linkedin icon-4x"></i>
-            </div>
-          </div>
 
+        <div class="col12 col-lg-auto justify-content-center">
+          <a href="mailto:f.montagna@fmingenieria.com">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            contacto@ingenieriafm.com</a>
         </div>
+        <div class="col12 col-lg-auto justify-content-center">
+          <a href="tel:+549110000000">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            +54 911 000 0000</a>
+        </div>
+        <div class="col12 col-lg-auto float-left justify-content-center">
+          <a href="https://www.linkedin.com/in/florenciamontagna/" id="linkedin" target="_blank">
+            <i class="fa fa-linkedin icon-4x"></i>
+        </div>
+
       </div>
 
     </div>
