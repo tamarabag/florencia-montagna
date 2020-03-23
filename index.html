@@ -28,28 +28,45 @@
 <body>
 
   <header>
-    <nav class="navbar">
-      <div class="bar">
-        <h6 class="pl-5"><a href="#">FLORENCIA MONTAGNA</a></h6>
-        <!-- <img class="hamburger visible-min" src="./images/icon-hamburger.svg" alt="Hamburger Icon"
-          onclick="toggle(this)"> -->
-        <button class="nav-toggle hamburger visible-min">
-          <span class="bar-top"></span>
-          <span class="bar-mid"></span>
-          <span class="bar-bot"></span>
-        </button>
+
+    <!-- PROBANDO DE BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <h6><a class="navbar-brand" href="#">FLORENCIA MONTAGNA</a></h6>
+
+      <!-- Medium and bigger -->
+      <!-- <div class="d-none d-md-block">
+        <ul class="menu">
+          <li><a href="#servicios">SERVICIOS</a></li>
+          <li><a href="#sobre-mi">SOBRE MÍ</a></li>
+          <li><a href="mailto:f.montagna@fmingenieria.com.ar">CONTACTAME</a></li>
+        </ul>
+      </div> -->
+
+      <!-- Smaller than Medium -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-auto my-2">
+            <a class="nav-link" href="#servicios">SERVICIOS</a>
+          </li>
+          <li class="nav-item mx-auto my-2">
+            <a class="nav-link" href="#sobre-mi">SOBRE MÍ</a>
+          </li>
+          <li class="nav-item mx-auto my-2">
+            <a class="nav-link" href="mailto:f.montagna@fmingenieria.com.ar">CONTACTAME</a>
+          </li>
+        </ul>
 
       </div>
-      <ul class="menu">
-        <!-- <li><a href="#">PROYECTOS</a></li> -->
-        <li><a href="#servicios">SERVICIOS</a></li>
-        <li><a href="#sobre-mi">SOBRE MÍ</a></li>
-        <li><a href="mailto:f.montagna@fmingenieria.com">CONTACTAME</a></li>
-      </ul>
     </nav>
-  </header>
+    <!-- FIN -->
 
-  <!-- 
+
+    <!-- 
   <div class="pos-f-t">
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg-dark p-4">
@@ -65,193 +82,204 @@
     </nav>
   </div> -->
 
-  <section class="intro">
-    <div class="container-fluid intro">
+    <section class="intro">
+      <div class="container-fluid intro">
 
-      <div class="row py-5 px-5">
+        <div class="row py-5 px-5">
 
-        <div class="col-12 col-md-6">
-          <h1 class="banner text-white mb-3">Ingeniería<br />de Proyectos</h1>
-          <p class="text-white py-4 pr-5 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste
-            minima.
-            Atque
-            dolor, hic reprehenderit commodi rem incidunt iure porro totam ex natus! Ipsam, odit ipsa saepe ex illum
-            laboriosam!
-          </p>
-          <a class="contact mt-3" href="#">CONTACTAME</a>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <img class="intro-img d-none d-sm-block
-          " src="./images/prueba-mobile.svg" alt="Image Intro">
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <section class="container servicios" id="servicios">
-    <div class="row">
-      <div class="col">
-        <h2 class="section-title">Servicios</h2>
-      </div>
-    </div>
-
-    <div class="row text-center mx-auto">
-      <div class="col-12 col-md-4 text-center mx-auto">
-        <div class="card border-0 mb-3" style="max-width: 18rem;">
-          <img class="card-img-top" src="./images/icon-gestion.svg" alt="Gestion de Proyectos">
-          <div class="card-body">
-            <h5 class="card-title">Desarrollo y Gestión de Proyectos</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque
-              dolor, hic
-              reprehenderit commodi..</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-4">
-        <div class="card border-0 mb-3" style="max-width: 18rem;">
-          <img class="card-img-top" src="./images/icon-industria.svg" alt="Montaje de Obra">
-          <div class="card-body">
-            <h5 class="card-title">Montaje de Obra</h5>
-            <p class="card-text">Supervisión de obra, montaje y puesta en marcha de equipos e instalaciones.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-4">
-        <div class="card border-0 mb-3" style="max-width: 18rem;">
-          <img class="card-img-top" src="./images/icon-puesta-en-marcha.svg" alt="Puesta en Marcha">
-          <div class="card-body">
-            <h5 class="card-title">Puesta en Marcha</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima. Atque
-              dolor, hic
-              reprehenderit commodi...</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row text-center">
-      <div class="col-12 col-md-4">
-        <div class="card border-0 mb-3" style="max-width: 18rem;">
-          <img class="card-img-top" src="./images/icon-documentacion.svg" alt="Documentacion">
-
-          <div class="card-body">
-            <h5 class="card-title">Documentación</h5>
-            <p class="card-text">Realización de Pliegos, P&ID, especificaciones técnicas y documentaciones para
-              registro.
-              Desarrollo de planes de validación de líneas y equipos, con documentación.
-              Análisis de documentación técnica.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-4">
-        <div class="card border-0 mb-3" style="max-width: 18rem;">
-          <img class="card-img-top" src="./images/icon-proveedores.svg" alt="Gestión de Proveedores">
-          <div class="card-body">
-            <h5 class="card-title">Gestión de proveedores</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
-              Atque dolor, hic
-              reprehenderit commodi...</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-4">
-        <div class="card border-0 mb-3" style="max-width: 18rem;">
-          <img class="card-img-top" src="./images/icon-industria-alimenticia.svg" alt="Industria Alimenticia">
-          <div class="card-body">
-            <h5 class="card-title">Especializada en Industria Alimenticia</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+          <div class="col-12 col-md-6">
+            <h1 class="banner text-white mb-3">Ingeniería<br />de Proyectos</h1>
+            <p class="text-white py-4 pr-5 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
+              iste
+              minima.
               Atque
-              dolor, hic
-              reprehenderit commodi...</p>
+              dolor, hic reprehenderit commodi rem incidunt iure porro totam ex natus! Ipsam, odit ipsa saepe ex illum
+              laboriosam!
+            </p>
+            <a class="contact mt-3" href="#">CONTACTAME</a>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <img class="intro-img d-none d-sm-block
+          " src="./images/prueba-mobile.svg" alt="Image Intro">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="container servicios" id="servicios">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-title">Servicios</h2>
+        </div>
+      </div>
+
+      <div class="row text-center mx-auto">
+        <div class="col-12 col-md-4 text-center mx-auto">
+          <div class="card border-0 mb-3" style="max-width: 18rem;">
+            <img class="card-img-top" src="./images/icon-gestion.svg" alt="Gestion de Proyectos">
+            <div class="card-body">
+              <h5 class="card-title">Desarrollo y Gestión de Proyectos</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+                Atque
+                dolor, hic
+                reprehenderit commodi..</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mb-3" style="max-width: 18rem;">
+            <img class="card-img-top" src="./images/icon-industria.svg" alt="Montaje de Obra">
+            <div class="card-body">
+              <h5 class="card-title">Montaje de Obra</h5>
+              <p class="card-text">Supervisión de obra, montaje y puesta en marcha de equipos e instalaciones.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mb-3" style="max-width: 18rem;">
+            <img class="card-img-top" src="./images/icon-puesta-en-marcha.svg" alt="Puesta en Marcha">
+            <div class="card-body">
+              <h5 class="card-title">Puesta en Marcha</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+                Atque
+                dolor, hic
+                reprehenderit commodi...</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    </div>
-
-  </section>
-
-
-  <section class="container about w-75" id="sobre-mi">
-    <h2 class="section-title">Sobre Mí</h2>
-    <div class="card-bio">
-      <div class="row align-middle">
-        <div class="col-4 text-center">
-          <img class="rounded-circle w-75" src="./images/foto-fm.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-8 align-middle">
-          <div class="card-block">
-            <h2 class="card-title">Ingeniera Florencia Montagna</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique inventore dolores
-              perferendis eveniet nemo quibusdam nulla repellat nobis officiis provident, nostrum, illum deserunt
-              maxime,
-              suscipit aliquam placeat veritatis labore minus.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-
-  </section>
-
-
-  <section class="container detail w-75 p-5 align-middle" id="contacto">
-    <div class="row">
-      <div class="col-12 col-md-9 my-3">
-        <h2 class="text-white"> <span> ¿Estás interesado</span><span>en que trabajemos juntos?</span></h2>
-      </div>
-      <div class="col-12 col-md-3 my-3 mx-auto align-middle">
-        <span class="text-center align-middle"><a class="contact" href="mailto:f.montagna@fmingenieria.com">
-            CONTACTAME
-          </a></span>
-      </div>
-    </div>
-  </section>
-
-
-  <footer class="container-fluid">
-    <div class="container">
       <div class="row text-center">
-        <div class="col-12 col-lg-7  text-center text-lg-left float-left">
-          <h6 class="logo pl-3">FLORENCIA MONTAGNA</h6>
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mb-3" style="max-width: 18rem;">
+            <img class="card-img-top" src="./images/icon-documentacion.svg" alt="Documentacion">
+
+            <div class="card-body">
+              <h5 class="card-title">Documentación</h5>
+              <p class="card-text">Realización de Pliegos, P&ID, especificaciones técnicas y documentaciones para
+                registro.
+                Desarrollo de planes de validación de líneas y equipos, con documentación.
+                Análisis de documentación técnica.</p>
+            </div>
+          </div>
         </div>
 
-        <div class="col12 col-lg-auto justify-content-center">
-          <a href="mailto:f.montagna@fmingenieria.com">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            contacto@ingenieriafm.com</a>
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mb-3" style="max-width: 18rem;">
+            <img class="card-img-top" src="./images/icon-proveedores.svg" alt="Gestión de Proveedores">
+            <div class="card-body">
+              <h5 class="card-title">Gestión de proveedores</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+                Atque dolor, hic
+                reprehenderit commodi...</p>
+            </div>
+          </div>
         </div>
-        <div class="col12 col-lg-auto justify-content-center">
-          <a href="tel:+549110000000">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            +54 911 000 0000</a>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-0 mb-3" style="max-width: 18rem;">
+            <img class="card-img-top" src="./images/icon-industria-alimenticia.svg" alt="Industria Alimenticia">
+            <div class="card-body">
+              <h5 class="card-title">Especializada en Industria Alimenticia</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste minima.
+                Atque
+                dolor, hic
+                reprehenderit commodi...</p>
+            </div>
+          </div>
         </div>
-        <div class="col12 col-lg-auto float-left justify-content-center">
-          <a href="https://www.linkedin.com/in/florenciamontagna/" id="linkedin" target="_blank">
-            <i class="fa fa-linkedin icon-4x"></i>
+      </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="container about w-75" id="sobre-mi">
+      <h2 class="section-title">Sobre Mí</h2>
+      <div class="card-bio">
+        <div class="row align-middle">
+          <div class="col-4 text-center">
+            <img class="rounded-circle w-75" src="./images/foto-fm.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-8 align-middle">
+            <div class="card-block">
+              <h2 class="card-title">Ingeniera Florencia Montagna</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique inventore dolores
+                perferendis eveniet nemo quibusdam nulla repellat nobis officiis provident, nostrum, illum deserunt
+                maxime,
+                suscipit aliquam placeat veritatis labore minus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="container detail w-75 p-5 align-middle" id="contacto">
+      <div class="row">
+        <div class="col-12 col-md-9 my-3">
+          <h2 class="text-white"> <span> ¿Estás interesado</span><span>en que trabajemos juntos?</span></h2>
+        </div>
+        <div class="col-12 col-md-3 my-3 mx-auto align-middle">
+          <span class="text-center align-middle"><a class="contact" href="mailto:f.montagna@fmingenieria.com.ar">
+              CONTACTAME
+            </a></span>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg-7  text-center text-lg-left float-left">
+            <h6 class="logo pl-3">FLORENCIA MONTAGNA</h6>
+          </div>
+
+          <div class="col12 col-lg-auto justify-content-center">
+            <a href="mailto:f.montagna@fmingenieria.com.ar">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              contacto@ingenieriafm.com</a>
+          </div>
+          <div class="col12 col-lg-auto justify-content-center">
+            <a href="tel:+549110000000">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              +54 911 000 0000</a>
+          </div>
+          <div class="col12 col-lg-auto float-left justify-content-center">
+            <a href="https://www.linkedin.com/in/florenciamontagna/" id="linkedin" target="_blank">
+              <i class="fa fa-linkedin icon-4x"></i>
+          </div>
+
         </div>
 
       </div>
 
-    </div>
 
+      <hr>
 
-    <hr>
+    </footer>
 
-  </footer>
-
-  <script src="script.js"></script>
-
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

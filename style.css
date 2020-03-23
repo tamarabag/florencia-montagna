@@ -175,7 +175,7 @@ header nav ul li a:hover {
   border: 1px solid transparent;
   margin: 7px 0;
   top: 50%;
-  left: 50%;
+  /* left: 50%; */
   
   /*
    * FOR PRESENTATION ONLY
